@@ -1,6 +1,6 @@
 # PAN baselines
 
-Memory baselines for [PAN](https://github.com/beimingli0626/mapnav), the pose-attention navigator. Each one replaces PAN's pose-indexed spatial context with a different way of storing the same tour, and is trained and evaluated by PAN's own pipeline, on the same frozen keyframes, readout and action decoder — the memory is the only axis that differs.
+Memory baselines for [PAN](https://github.com/beimingli0626/pan-dev), the pose-attention navigator. Each one replaces PAN's pose-indexed spatial context with a different way of storing the same tour, and is trained and evaluated by PAN's own pipeline, on the same frozen keyframes, readout and action decoder — the memory is the only axis that differs.
 
 | arch | memory |
 |---|---|
@@ -12,7 +12,7 @@ Memory baselines for [PAN](https://github.com/beimingli0626/mapnav), the pose-at
 
 ## Installation
 
-Install [PAN](https://github.com/beimingli0626/mapnav) first — it brings the simulator, the encoder and the data pipeline. Then, in the same environment:
+Install [PAN](https://github.com/beimingli0626/pan-dev) first — it brings the simulator, the encoder and the data pipeline. Then, in the same environment:
 
 ```bash
 pip install -e .
